@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Tahoma, Geneva, sans-serif;
 }
 
-code, header h2 {
+code {
     font-family: "Courier New", Courier, monospace;
 }
 
@@ -46,11 +46,25 @@ nav li, header h2 {
     align-items: center;
 }
 
+nav li a {
+    flex: 1 1 0;
+}
+
 header h2 {
     border-right: 1px solid lightgrey;
     padding-right: 20px;
     letter-spacing: 3px;
     font-size: 16pt;
+    font-family: Arial, sans-serif;
+}
+
+.siteTitleColoredPart {
+    color: chocolate;
+    font-weight: bold;
+}
+
+.lastName {
+    font-variant: small-caps;
 }
 
 nav li {
@@ -70,8 +84,24 @@ nav li:nth-child(3) {
     border-bottom-color: steelblue;
 }
 
+nav #currentNavItem:nth-child(1) {
+    background-color: #CD8A8D;
+}
+
+nav #currentNavItem:nth-child(2) {
+    background-color: #6ECD6B;
+}
+
+nav #currentNavItem:nth-child(3) {
+    background-color: #739AB4;
+}
+
 nav li:hover {
     background-color: azure;
+}
+
+nav li:active, #currentNavItem {
+    background-color: rgba(161,172,181,0.78);
 }
 
 nav a, nav a:visited, nav a:hover {
@@ -86,10 +116,15 @@ main > div, footer > div, header > div {
 
 main {
     text-align: justify;
+    padding: 30px 0;
+}
+
+main p {
+    margin-bottom: 20px;
 }
 
 footer {
-    padding: 10px 5px;
+    padding: 20px 0;
     margin-bottom: 10px;
     color: rgba(125, 134, 163, 0.69);
     background-color: rgb(29, 31, 43);
