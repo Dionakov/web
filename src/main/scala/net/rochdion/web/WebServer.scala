@@ -32,7 +32,7 @@ object WebServer:
       _ <- 
         EmberServerBuilder.default[F]
           .withHost(ipv4"0.0.0.0")
-          .withPort(port"8080")
+          .withPort(port"80")
           .withHttpApp(finalHttpApp)
           .build
     } yield ()

@@ -12,8 +12,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.4.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.4.8:jar" level="project" />
     <orderEntry type="library" name="sbt: co.fs2:fs2-core_3:3.7.0:jar" level="project" />
     <orderEntry type="library" name="sbt: co.fs2:fs2-io_3:3.7.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.comcast:ip4s-core_3:3.3.0:jar" level="project" />
@@ -40,7 +38,7 @@
     <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:junit-interface:0.7.29:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit_3:0.7.29:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scodec:scodec-bits_3:1.1.37:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:2.0.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.36:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:case-insensitive_3:1.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-core_3:2.9.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-effect-kernel_3:3.5.0:jar" level="project" />
